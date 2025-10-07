@@ -23,5 +23,8 @@
       "128": "images/icon128.png"
     },
     "default_title": "Generate a summary"
+  },
+  "content_security_policy": {
+    "extension_pages": "script-src 'self'; object-src 'self'; style-src 'self';"
   }
 }

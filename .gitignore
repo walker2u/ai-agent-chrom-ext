@@ -1,2 +1,6 @@
+# Build output
 dist
+output.css
+
+# Dependencies
 node_modules

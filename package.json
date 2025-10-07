@@ -1,11 +1,12 @@
 {
-  "name": "Summarization Example",
+  "name": "AI Agent",
   "private": true,
   "version": "1.0.0",
   "description": "",
   "main": "background.js",
   "scripts": {
-    "build": "rollup -c rollup.config.mjs"
+    "build": "rollup -c rollup.config.mjs",
+    "tailwind": "npx @tailwindcss/cli -i ./input.css -o ./output.css --watch"
   },
   "keywords": [],
   "license": "Apache 2.0",
